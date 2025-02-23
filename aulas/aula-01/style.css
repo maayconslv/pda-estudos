@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .bg-image {
+  background-image: url("./assets/main-image.png");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Alice', sans-serif;
+}
+
+.page {
+  width: 800px;
+  height: 1440px;
+
+  border-radius: 24px;
+  padding: 24px;
+
+  background-color: #f0e8c2;
+}
+
+.page img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+#about h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #291B1A;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #573A37;
+  margin-top: 12px;
+}
+
+#ingredients h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #291B1A;
+  margin-top: 24px;
+}
+
+#ingredients ul {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #573A37;
+  padding: 0 20px;
+}
+
+#preparation h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #291B1A;
+  margin-top: 24px;
+}
+
+#preparation p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #573A37;
+  margin-top: 12px;
+}
