@@ -42,6 +42,26 @@ product2.details()
 console.log(product2.name)
 
 
-// METODOS DE STRING /
+// DATAS NO JAVASCRIPT /
 
+const date = new Date("2025-02-25:14:00:00");
+console.log(date)
 
+console.log('data formatada: ', date.toLocaleDateString("pt-BR", {
+  dateStyle: 'full'
+}))
+
+console.log('hora formatada: ', date.toLocaleTimeString('pt-BR', {
+  timeStyle: 'full',
+  hour12: true,
+}))
+
+console.log(date.getFullYear())
+
+// PROTOTYPE NO JAVASCRIPT
+console.log('------------ PROTOTYPE JAVASCRIPT -----------');
+const address = {
+  city: 'Recife',
+  country: 'Brasil'
+}
+console.log(address)
